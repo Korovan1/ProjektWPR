@@ -1,0 +1,18 @@
+{% extends 'ancestor.html'  %}
+
+{% block title %}
+About
+{% endblock %}
+Create Post
+{% block body %}
+<div class="container mt-5">
+       <h1>Create Post</h1>
+       <form method="post">
+              <input type="text" name="title" id="title" class="form-control" placeholder="Enter Titile"><br>
+              <textarea name="intro" id="intro" class="form-control" placeholder="Enter Intro"></textarea><br>
+              <textarea name="text" id="text" class="form-control" placeholder="Enter Text"></textarea><br>
+              <input type="submit" class="btn btn-success" value="Send"><br>
+
+       </form>
+</div>
+{% endblock %}
